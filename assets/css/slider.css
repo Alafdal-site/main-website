@@ -1,6 +1,6 @@
 
 .carousel-caption {
-    bottom: 220px;
+    bottom: 120px;
 }
 .carousel-caption h5 {
 	font-size: 45px;
@@ -88,5 +88,7 @@
 	.cap-desc {
 		display: none;
 	}
+	.carousel-caption {
+		margin-bottom: 180px;
+	}
 }
-
