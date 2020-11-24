@@ -1,0 +1,50 @@
+.navbar.scrolled {
+  background: #fff;
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top.scrolled {
+  background-color: #fff;
+}
+
+.navbar-light {
+  transition: 500ms ease;
+  background: transparent;
+}
+
+.navbar-light.scrolled {
+  background-color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .caption {
+    margin-left: 10%;
+  }
+}
+
+.test-overlay {
+  position: absolute;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.loader-bg {
+  position: fixed;
+  background: #fff;
+  z-index: 999999;
+  height: 100%;
+  width: 100%;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+
+
+
