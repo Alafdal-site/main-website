@@ -134,3 +134,8 @@ h4.title{
     display: flex;
     justify-content: center;
 }
+.lab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
