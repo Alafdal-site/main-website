@@ -150,19 +150,19 @@
 }
 
 .our-team {
-  background: #f7f5ec;
+  background: rgba(0,76,170,0.79);
   text-align: center;
   overflow: hidden;
   position: relative;
   padding: 50px 0 40px;
   margin: 0px 20px;
-  width: 80%;
+  width: 100%;
 }
 
 .our-team .pic {
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin-bottom: 0px;
   z-index: 1;
   position: relative;
@@ -187,12 +187,12 @@ our-team:hover .pic::before {
   height: 100%;
 }
 
-.our-team .pic:after {
+.our-team:hover .pic:after {
   content: "";
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #b9f7f9;
+  /*background: rgba(0,76,170,0.79);*/
   position: absolute;
   top: 0;
   left: 0;
@@ -235,7 +235,7 @@ our-team:hover .pic::before {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #b9f7f9;
+  background: rgba(0,76,170,0.79);
   position: absolute;
   bottom: -100px;
   left: 0;
@@ -264,12 +264,12 @@ our-team:hover .pic::before {
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background: #59f4f9;
+  background: #004caa;
   position: absolute;
   bottom: 135%;
   right: 0;
   left: 0;
-  opacity: 0.2;
+  opacity: .8;
   transform: scale(3);
   transition: all 0.3s linear 0s;
 }
@@ -297,13 +297,13 @@ our-team:hover .pic::before {
   }
 }
 
-@media (max-width: 595px) {
+@media (max-width: 1004px) {
   .doctors-large {
     display: none;
   }
 }
 
-@media (min-width: 595px) {
+@media (min-width: 1005px) {
   #carousel-7 {
     display: none;
   }
@@ -328,14 +328,14 @@ our-team:hover .pic::before {
   border-radius: 0;
   border: 1px solid #eee;
   background-color: #fff;
-  box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+  box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);
   height: 250px;
   justify-content: space-around;
 }
 
 .card-head {
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
   justify-content: center;
   align-items: center;
   display: flex;
@@ -348,7 +348,7 @@ our-team:hover .pic::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(89,244,249,0.91);
+  background-color: rgba(0,76,170,0.79);
   z-index: 10;
   display: flex;
   align-items: center;

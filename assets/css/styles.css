@@ -1,9 +1,10 @@
+
 .navbar.scrolled {
-  background: #fff;
+  background: #000;
 }
 
 .navbar.navbar-light.navbar-expand-md.sticky-top.scrolled {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .navbar-light {
@@ -44,7 +45,4 @@ html {
   background-color: #fff;
   animation: loader-inner 2s infinite ease-in;
 }
-
-
-
 

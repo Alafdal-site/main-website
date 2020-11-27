@@ -7,6 +7,7 @@
     <title>AlAfdal</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almarai">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
@@ -26,83 +27,78 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Testimonials.css">
 
-    <link rel="stylesheet" href="assets/css/slider.css">   
-    <link rel="stylesheet" href="assets/css/filter.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
 <body style="/*width: auto;*/">
-   
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="#"><img src="assets/img/logo-1.png" style="width: 150px;"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#home">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">ABOUT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#doctors">DOCTORS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#services">SERVICES</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#insurance">INSURANCE</a>
-                    </li>
-					<li class="nav-item">
-						<a class="nav-link" href="#gallery">GALLERY</a>
-                    </li>
-					<li class="nav-item">
-						<a class="nav-link" href="#appointment">APPOINTMENT</a>
-                    </li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
-		<ol class="carousel-indicators">
-			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
-			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
-			<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img alt="First slide" class="d-block" src="assets/img/banner1.jpg">
-				<div class="carousel-caption">
-					<h5 class="animated bounceInRight" style="animation-delay: 1s">Who doesn't dream of that perfect smile ?</h5>
-					<p class="animated bounceInLeft cap-desc" style="animation-delay: 2s">The smile that's so contagious that people can't help but smile with you. Unfortunately, not everyone is gifted with a smile like that, but it is easy to get. From cleaning and whitening to teeth straitening, you can get that gorgeous smile with the help of an orthodontist.</p>
-					<p class="animated bounceInRight" style="animation-delay: 3s"><a href="#appointment">Book Now</a></p>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img alt="Second slide" class="d-block" src="assets/img/banner2.jpg">
-				<div class="carousel-caption">
-					<h5 class="animated slideInDown" style="animation-delay: 1s">Providing an Exceptional Patient Experience</h5>
-					<p class="animated fadeInUp cap-desc" style="animation-delay: 2s">Equipped with the latest dental technology and state-of the-art strict sterilization protocols, our team assures patient-oriented treatments with outstanding quality and results.</p>
-					<p class="animated zoomIn" style="animation-delay: 3s"><a href="#appointment">Book Now</a></p>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img alt="Third slide" class="d-block" src="assets/img/banner3.jpg">
-				<div class="carousel-caption">
-					<h5 class="animated zoomIn" style="animation-delay: 1s">Personal Care for your healthy living</h5>
-					<p class="animated fadeInLeft cap-desc" style="animation-delay: 2s">At AMC, we combine continuing care, with appropriate lifestyle interventions and lifestyle advices for adequate control of chronic medical conditions like diabetes, high BP, high cholesterol, obesity, Thyroid diseases, bronchial asthma and PCOD and other chronic repeated problems are also addressed efficiently.</p>
-					<p class="animated zoomIn" style="animation-delay: 3s"><a href="#appointment">Book Now</a></p>
-				</div>
-			</div>
-		</div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
-	</div>
+    <section id="home" style="background: url(&quot;assets/img/home.jpg&quot;) bottom / contain no-repeat;">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button" style="background: rgb(255,255,255);">
+            <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/logo-1.png" style="width: 150px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-2">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#" style="font-family: Poppins, sans-serif;font-weight: bold;color: #004caa;">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about" style="font-family: Poppins, sans-serif;font-weight: bold;color: #004caa;">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#doctors" style="font-family: Poppins, sans-serif;font-weight: bold;color: #004caa;">Doctors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#treatments" style="font-family: Poppins, sans-serif;font-weight: bold;color: #004caa;">Treatments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#insurance" style="font-family: Poppins, sans-serif;font-weight: bold;color: #004caa;">Insurance</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery" style="font-family: Poppins, sans-serif;font-weight: bold;color: #004caa;">Gallery</a></li>
+                    </ul><span class="navbar-text actions"> </span></div>
+            </div>
+        </nav>
+        <div class="d-flex d-sm-flex d-md-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center justify-content-md-start align-items-md-center align-items-xl-center" style="height: 100%;">
+            <div class="carousel slide" data-ride="carousel" id="carousel-home">
+                <div class="carousel-inner" style="padding-bottom: 30px;">
+                    <div class="carousel-item active">
+                        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            style="height: 400px;">
+                            <h1 class="text-center slider-heading ml3" style="color: #004caa;font-family: Alatsi, sans-serif;font-weight: bold;">Who Doesn't Dream Of That Perfect Smile ?</h1>
+                            <p class="text-center slider-paragraph" style="color: #818181;font-family: Poppins, sans-serif;"><br>The smile that's so contagious that people can't help but smile with you. Unfortunately, not everyone is gifted with a smile like that, but it is easy to get. From cleaning and whitening to teeth straitening, you can get
+                                that gorgeous smile with the help of an orthodontist.<br><br></p>
+                            <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center"
+                                style="width: 100%;"><a class="btn btn-light slider-button" role="button" href="#appointment" style="background: #000066;font-family: Poppins, sans-serif;color: rgb(255,255,255);border-radius: 20px;">Get Appointment</a></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            style="height: 400px;">
+                            <h1 class="text-center slider-heading ml3" style="color: #004caa;font-family: Alatsi, sans-serif;font-weight: bold;">Providing An Exceptional Patient Experience</h1>
+                            <p class="text-center slider-paragraph" style="color: #818181;font-family: Poppins, sans-serif;"><br>Equipped with the latest dental technology and state-of the-art strict sterilization protocols, our team assures patient-oriented treatments with outstanding quality and results.<br><br></p>
+                            <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center"
+                                style="width: 100%;"><a class="btn btn-light slider-button" role="button" href="#appointment" style="background: #000066;font-family: Poppins, sans-serif;color: rgb(255,255,255);border-radius: 20px;">Get Appointment</a></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            style="height: 400px;">
+                            <h1 class="text-center slider-heading ml3" style="color: #004caa;font-family: Almarai, sans-serif;font-weight: bold;"><strong>Personal Care For Your Healthy Lving</strong><br></h1>
+                            <p class="text-center slider-paragraph" style="color: #818181;font-family: Poppins, sans-serif;"><br>At AMC, we combine continuing care, with appropriate lifestyle interventions and lifestyle advices for adequate control of chronic medical conditions like diabetes, high BP, high cholesterol, obesity, Thyroid diseases,
+                                bronchial asthma and PCOD and other chronic repeated problems are also addressed efficiently.<br><br></p>
+                            <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center"
+                                style="width: 100%;"><a class="btn btn-light slider-button" role="button" href="#appointment" style="background: #000066;font-family: Poppins, sans-serif;color: rgb(255,255,255);border-radius: 20px;">Get Appointment</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div><a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev"><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next"><span class="sr-only">Next</span></a></div>
+                <ol
+                    class="carousel-indicators">
+                    <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-home" data-slide-to="1"></li>
+                    <li data-target="#carousel-home" data-slide-to="2"></li>
+                    </ol>
+            </div>
+        </div>
+    </section>
     <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14422.981145335432!2d55.3919398!3d25.3463269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6445f71f5c9525cc!2sAl%20Afdal%20Medical%20Center%20%7C%20Orthodontist%20%7C%20Dentist%20%7C%20GP%20%7C%20Previously%20Al%20Afdal%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1605754998558!5m2!1sen!2sin"
           width="100%"
-          height="650"
+          height="350"
           frameborder="0"
           style="border: 0"
           allowfullscreen=""
@@ -110,517 +106,149 @@
           tabindex="0"
         ></iframe>
     </div>
-    <div class="d-flex d-sm-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-xl-center align-items-xl-center" style="padding: 0px;height: auto;background: url(&quot;assets/img/banner.jpg&quot;) no-repeat;padding-top: 10%;padding-bottom: 10%;background-size: cover;">
-        <div class="container d-flex d-sm-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center align-items-xl-center" style="padding: 0px;margin-top: 0px;height: auto;">
-            <div class="row d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center" style="width: 100%;min-width: auto;margin: 0px;margin-top: 0px;height: auto;">
-                <div class="col-md-4 d-flex d-xl-flex flex-column justify-content-xl-start align-items-xl-start" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" style="width: 400px;max-height: 400px;background: #b9f7f9;height: 350px;padding: 35px;border-radius: 6px;box-shadow: 0px 0px 20px 10px rgba(33,37,41,0.08);font-weight: normal;min-width: auto;"><img src="assets/img/mission.png" style="width: 40px;height: 40px;">
-                    <h1 style="font-family: Almarai, sans-serif;font-weight: normal;font-size: 20px;padding-top: 10px;">Mission</h1>
-                    <p class="text-justify" style="font-size: 11px;margin-top: 5px;font-family: Almarai, sans-serif;">Our mission is to provide our valued customer with state of the art dental and oral treatments under utmost sterilized conditions at nominal and affordable cost.<br></p><a href="#appointment"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);border-radius: 15px;border-width: 0px;font-family: Almarai, sans-serif;font-weight: normal;font-size: 14px;padding-top: 6px;margin-top: 68px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></div>
-                <div
-                    class="col-md-4 d-xl-flex flex-column justify-content-xl-start align-items-xl-start" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" style="width: 400px;max-height: auto;height: auto;background: #d4fdfe;border-radius: 6px;box-shadow: 0px 0px 20px 10px rgba(33,37,41,0.08);padding: 35px;min-width: auto;"><img src="assets/img/language.png" style="width: 40px;height: 40px;">
-                    <h1 style="font-family: Almarai, sans-serif;font-size: 20px;font-weight: normal;padding-top: 10px;">Multilingual</h1>
-                    <p style="font-size: 11px;text-align: justify;margin-top: 5px;height: auto;max-height: auto;font-family: Almarai, sans-serif;">&nbsp;<br>Celebrating the year of tolerance with utmost fervor our medical team spreads the feeling of united and tolerant UAE. We have a diverse team of Indian and Arabic doctors all committed to treating every patient fairly and
-                        ethically. We enjoy the growing trust of 5000+ patients and are proud to have treated 100+ nationalities at our medical center. We are the best multilingual dental clinic in Sharjah. Our team of certified dentists, dental nurses
-                        and office staff, speak many languages such as English, Arabic, Hindi, Malayalam, Tagalog, Marathi, Punjabi, Konkani, Telugu, Tamil and much more. We are trying our level best to achieve minimum waiting time so we request you to
-                        take appointments so that you have an urgent care and enhanced treatment experience.<br><br></p>
+    <div style="padding-top: 3%;">
+        <div class="container">
+            <div class="row d-sm-flex d-md-flex d-lg-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
+                <div class="col-md-6 col-lg-6 col-xl-4 d-flex d-sm-flex justify-content-center justify-content-sm-center">
+                    <div class="d-flex flex-column justify-content-between align-items-center" data-aos="fade-up" data-aos-duration="1000" style="height: 420px;width: 350px;box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);border-radius: 10px;margin: 30px;"><img src="assets/img/amc-mission.png" style="width: 80px;height: 80px;margin-top: 10%;">
+                        <h1 style="font-family: Alatsi, sans-serif;font-size: 30px;margin-top: 10%;">Our Mission</h1>
+                        <p class="text-center" style="width: 90%;font-size: 12px;font-family: Poppins, sans-serif;">Our mission is to provide our valued customer with state of the art dental and oral treatments under utmost sterilized conditions at nominal and affordable cost<br></p><button class="btn btn-primary" type="button" style="background: #000066;border-radius: 20px;padding-left: 20px;padding-right: 20px;margin-bottom: 20px;">Book Now</button></div>
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4 d-flex d-sm-flex justify-content-center justify-content-sm-center">
+                    <div class="d-flex flex-column justify-content-between align-items-center" data-aos="fade-down" data-aos-duration="1000" style="height: 420px;width: 350px;box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);border-radius: 10px;margin: 30px;"><img src="assets/img/translation.png" style="width: 80px;height: 80px;margin-top: 10%;">
+                        <h1 style="font-family: Alatsi, sans-serif;font-size: 30px;margin-top: 10%;">Multilingual</h1>
+                        <p class="text-center" style="width: 90%;font-size: 12px;font-family: Poppins, sans-serif;">We are the best multilingual dental clinic in Sharjah. Our team of certified dentists, dental nurses and office staff, speak many languages such as English, Arabic, Hindi, Malayalam, Tagalog, Marathi, Punjabi, Konkani, Telugu,
+                            Tamil and much more.<br></p><button class="btn btn-primary" type="button" style="background: #000066;border-radius: 20px;padding-left: 20px;padding-right: 20px;margin-bottom: 20px;">Book Now</button></div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 d-flex d-sm-flex justify-content-center justify-content-sm-center">
+                    <div class="d-flex flex-column justify-content-between align-items-center" data-aos="fade-up" data-aos-duration="1000" style="height: 420px;box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);border-radius: 10px;margin: 30px;width: 350px;"><img src="assets/img/time.png" style="width: 80px;height: 80px;margin-top: 10%;">
+                        <h1 style="font-family: Alatsi, sans-serif;font-size: 30px;margin-top: 10%;">Opening Hours</h1>
+                        <p class="text-center" style="width: 80%;font-size: 12px;font-family: Poppins, sans-serif;"><br>SATURDAY - TUESDAY : 8 AM TO 10 PM<br><br>FRIDAY : 8 AM TO 11 AM &amp; 2 PM TO 10 PM<br><br></p><button class="btn btn-primary" type="button" style="background: #000066;border-radius: 20px;padding-left: 20px;padding-right: 20px;margin-bottom: 20px;">Book Now</button></div>
+                </div>
             </div>
-            <div class="col-md-4 d-flex d-xl-flex flex-column justify-content-xl-start align-items-xl-start" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" style="width: 400px;max-height: 400px;background: #b9f7f9;height: 350px;padding: 35px;border-radius: 6px;box-shadow: 0px 0px 20px 10px rgba(33,37,41,0.08);font-weight: normal;min-width: auto;"><img src="assets/img/clock.png" style="width: 40px;height: 40px;">
-                <h1 style="font-family: Almarai, sans-serif;font-weight: normal;font-size: 20px;padding-top: 10px;">Opening Hours</h1>
-                <p class="text-justify" style="font-size: 11px;margin-top: 10px;font-family: Almarai, sans-serif;">SATURDAY - TUESDAY : 8 AM TO 10 PM</p>
-                <p class="text-justify" style="font-size: 11px;margin-top: 5px;font-family: Almarai, sans-serif;">FRIDAY : 8 AM TO 11 AM &amp; 2 PM TO 10 PM</p><a href="https://web.whatsapp.com/send?phone=971501741154"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);border-radius: 15px;border-width: 0px;font-family: Almarai, sans-serif;font-weight: normal;font-size: 14px;padding-top: 6px;margin-top: 60px;padding-right: 15px;padding-left: 15px;">Contact Us</button></a></div>
         </div>
     </div>
-    </div>
-    <section id="about" style="background: url(&quot;assets/img/about-bg.jpg&quot;) top / cover no-repeat;height: auto;max-height: auto;min-height: 650px;">
+    <section id="about" style="height: auto;max-height: auto;min-height: 650px;background: url(&quot;assets/img/about-us.jpg&quot;) center / contain no-repeat;">
         <div class="col-md-6 d-flex d-xl-flex flex-column align-items-center justify-content-xl-center welcome-col" style="height: auto;">
-            <h1 style="font-family: Almarai, sans-serif;padding-bottom: 8%;margin-bottom: 5px;height: auto;width: auto;padding-right: 0px;padding-left: 0px;padding-top: 80px;"><strong>Welcome to Al Afdal Medical Center</strong><br></h1>
-            <p class="text-left" style="text-align: justify;font-family: Almarai, sans-serif;font-size: 18px;height: auto;"><br>Al Afdal medical center (AAMC) is one of the best medical centre in Sharjah. From its humble beginning as a small dental clinic in Sharjah now it has grown with the trust of its patients to one of the best dental and top medical centers
+            <h1 style="font-family: Almarai, sans-serif;padding-bottom: 8%;margin-bottom: 5px;height: auto;width: auto;padding-right: 0px;padding-left: 0px;padding-top: 40px;"><strong>Welcome to Al Afdal Medical Center</strong><br></h1>
+            <p class="text-left" style="text-align: justify;font-family: Poppins, sans-serif;font-size: 18px;height: auto;"><br>Al Afdal medical center (AAMC) is one of the best medical centre in Sharjah. From its humble beginning as a small dental clinic in Sharjah now it has grown with the trust of its patients to one of the best dental and top medical centers
                 in Sharjah. The clinic has a professional team of dentists, dental specialists and doctors who are committed to excellence in their medical duties. Equipped with the latest dental technology and state-ofthe-art strict sterilization protocols,
                 our team assures patient-oriented treatments with outstanding quality and results.<br><br></p>
         </div>
     </section>
-    <section id="doctors" style="padding-top: 7%;padding-bottom: 5%;background: url(&quot;assets/img/19449741.jpg&quot;) center / cover no-repeat;">
-        <div class="d-flex d-sm-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-xl-center align-items-xl-center">
-            <h1 class="text-center" style="font-family: Poppins, sans-serif;font-weight: bold;font-size: 35px;">Meet Our Specialists</h1>
-            <p class="text-center d-sm-flex justify-content-sm-center align-items-sm-center" style="color: rgb(125,130,133);width: 80%;font-family: Almarai, sans-serif;font-size: 15px;"><br>We offer extensive medical procedures to outbound and inbound patients what it is and we are very proud of achievement of our staff, We are all work together to help our all patients for recovery<br><br></p>
-        </div>
-        <div class="carousel slide" data-ride="carousel" id="carousel-7">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center align-items-center" style="padding-bottom: 40px;">
-                        <div class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;">
-                            <div class="pic"><img src="assets/img/Dr-Bhavna-C-Mohan.jpg"></div>
-                            <div class="team-content">
-                                <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Bhavna C Mohan<br></h1><span class="post" style="padding-top: 5px;">General Dentist<br></span></div>
-                            <ul class="social">
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center align-items-center" style="padding-bottom: 40px;">
-                        <div class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;">
-                            <div class="pic"><img src="assets/img/Dr-Prateek-Mathur-150x150.jpg"></div>
-                            <div class="team-content">
-                                <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Prateek Mathur<br></h1><span class="post" style="padding-top: 5px;">General Dentist<br></span></div>
-                            <ul class="social">
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center align-items-center" style="padding-bottom: 40px;">
-                        <div class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;">
-                            <div class="pic"><img src="assets/img/Dr-Vazna-Muhammed-General-Practioner-150x150.jpg"></div>
-                            <div class="team-content">
-                                <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Vazna Nalakath<br></h1><span class="post" style="padding-top: 5px;">General Practitioner<br></span></div>
-                            <ul class="social">
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center align-items-center" style="padding-bottom: 40px;">
-                        <div class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;">
-                            <div class="pic"><img src="assets/img/Dr-Jyothiswara-Ashok-150x150.jpg"></div>
-                            <div class="team-content">
-                                <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Jyothiswara Ashok<br></h1><span class="post" style="padding-top: 5px;">Specialist Orthodontics</span></div>
-                            <ul class="social">
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center align-items-center" style="padding-bottom: 40px;">
-                        <div class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;">
-                            <div class="pic"><img src="assets/img/Dr-Dalal-Elayan-GP-Dentist-150x150.jpg"></div>
-                            <div class="team-content">
-                                <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Dalal Elayan<br></h1><span class="post" style="padding-top: 5px;">General Dentist<br></span></div>
-                            <ul class="social">
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                                <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="flash" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+    <section id="doctors" style="padding-top: 7%;padding-bottom: 10%;">
+        <h1 class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="font-family: Alatsi, sans-serif;padding-bottom: 5%;">Our Doctors</h1>
+        <div class="d-flex d-xl-flex justify-content-center align-items-center flex-wrap justify-content-xl-center align-items-xl-center">
+            <div class="d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card">
+                <div class="d-xl-flex justify-content-xl-center align-items-xl-end" style="width: 217px;height: 217px;border-radius: 50%;margin-bottom: 20px;"><img src="assets/img/doctor-1.jpg" style="border-radius: 50%;width: 217px;"></div>
+                <h1 class="doctors-card-heading" style="font-family: Alatsi, sans-serif;font-size: 25px;padding-top: 20px;"><strong>Dr. Bhavna C Mohan</strong><br></h1>
+                <p style="font-family: Alatsi, sans-serif;color: #818181;">General Dentist<br></p>
+                <div class="d-flex d-xl-flex justify-content-between" style="width: 50%;background: rgba(193,143,143,0);border-top: 1px solid #dcdcdc;padding-top: 18px;"><a class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/facebook-app-symbol.png" style="width: 20px;"></a>
+                    <a
+                        class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/twitter.png" style="width: 20px;"></a><a class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/linkedin.png" style="width: 20px;"></a></div>
             </div>
-            <div><a class="carousel-control-prev" href="#carousel-7" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-7" role="button"
-                    data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-7" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-7" data-slide-to="1"></li>
-                <li data-target="#carousel-7" data-slide-to="2"></li>
-                <li data-target="#carousel-7" data-slide-to="3"></li>
-                <li data-target="#carousel-7" data-slide-to="4"></li>
-            </ol>
+            <div class="d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card">
+                <div class="d-xl-flex justify-content-xl-center align-items-xl-end" style="width: 217px;height: 217px;border-radius: 50%;margin-bottom: 20px;"><img src="assets/img/doctor-2.jpg" style="border-radius: 50%;width: 217px;"></div>
+                <h1 style="font-family: Alatsi, sans-serif;font-size: 25px;padding-top: 20px;"><strong>Dr. Bhavna C Mohan</strong><br></h1>
+                <p style="font-family: Alatsi, sans-serif;color: #818181;">General Dentist<br></p>
+                <div class="d-flex d-xl-flex justify-content-between" style="width: 50%;background: rgba(193,143,143,0);border-top: 1px solid #dcdcdc;padding-top: 18px;"><a class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/facebook-app-symbol.png" style="width: 20px;"></a>
+                    <a
+                        class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/twitter.png" style="width: 20px;"></a><a class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/linkedin.png" style="width: 20px;"></a></div>
+            </div>
+            <div class="d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card">
+                <div class="d-xl-flex justify-content-xl-center align-items-xl-end" style="width: 217px;height: 217px;border-radius: 50%;margin-bottom: 20px;"><img src="assets/img/doctor-3.jpg" style="border-radius: 50%;width: 217px;"></div>
+                <h1 style="font-family: Alatsi, sans-serif;font-size: 25px;padding-top: 20px;"><strong>Dr. Bhavna C Mohan</strong><br></h1>
+                <p style="font-family: Alatsi, sans-serif;color: #818181;">General Dentist<br></p>
+                <div class="d-flex d-xl-flex justify-content-between" style="width: 50%;background: rgba(193,143,143,0);border-top: 1px solid #dcdcdc;padding-top: 18px;"><a class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/facebook-app-symbol.png" style="width: 20px;"></a>
+                    <a
+                        class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/twitter.png" style="width: 20px;"></a><a class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center doctors-card-social-link" href="#" style="width: 30px;height: 30px;border-radius: 2px;"><img src="assets/img/linkedin.png" style="width: 20px;"></a></div>
+            </div>
         </div>
-        <div class="doctors-large">
-            <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row flex-wrap justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
-                <div data-aos="fade-up" data-aos-duration="500" class="our-team" style="max-width: 250px;background: rgb(255,255,255);border-radius: 5px;min-width: 250px;padding-top: 50px;box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);margin-bottom: 50px;">
-                    <div class="pic"><img src="assets/img/Dr-Bhavna-C-Mohan.jpg"></div>
-                    <div class="team-content">
-                        <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Bhavna C Mohan<br></h1><span class="post" style="padding-top: 5px;">General Dentist<br></span></div>
-                    <ul class="social">
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                    </ul>
+        <div class="d-flex justify-content-center" style="padding-top: 5%;"><a href="doctors.html" style="color: rgb(0,76,170);font-family: Poppins, sans-serif;">View all Doctors</a></div>
+    </section>
+    <section id="treatments" style="background: #004caa;padding-top: 5%;padding-bottom: 5%;">
+        <div>
+            <h1 class="text-center" style="color: rgb(255,255,255);margin-bottom: 5%;font-family: Almarai, sans-serif;margin-top: 3%;"><strong>Treatments</strong><br></h1>
+            <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center flex-wrap justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
+                <div class="d-xl-flex flex-column justify-content-between service-card"><img class="card-img" src="assets/img/dental-implant.png" style="margin-bottom: 10%;">
+                    <h1 style="color: rgb(255,255,255);font-family: Almarai, sans-serif;font-size: 25px;margin-left: 10%;">Dental Implants<br></h1>
+                    <p style="color: rgb(255,255,255);font-family: Poppins, sans-serif;font-size: 12px;width: 80%;height: 220px;margin-left: 10%;line-height: 2;"><br>Dental implants are the present most advantageous solution to replace lost tooth. They offer an excellent fixed (non-removable) solution to replace a single tooth or even many teeth that have been lost.<br></p>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000" class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;margin-bottom: 50px;">
-                    <div class="pic"><img src="assets/img/Dr-Prateek-Mathur-150x150.jpg"></div>
-                    <div class="team-content">
-                        <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Prateek Mathur<br></h1><span class="post" style="padding-top: 5px;">General Dentist<br></span></div>
-                    <ul class="social">
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                    </ul>
+                <div class="d-xl-flex flex-column justify-content-between service-card"><img class="card-img" src="assets/img/braces%20(2).png" style="margin-bottom: 10%;">
+                    <h1 style="color: rgb(255,255,255);font-family: Almarai, sans-serif;font-size: 25px;margin-left: 10%;">Dental Braces</h1>
+                    <p style="color: rgb(255,255,255);font-family: Poppins, sans-serif;font-size: 12px;width: 80%;height: 220px;margin-left: 10%;line-height: 2;"><br>Straight teeth contribute to healthy teeth and gums. Properly aligned teeth and jaws may alleviate or prevent physical health problems. Teeth that work better also tend to look better.<br><br><br></p>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1500" class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;margin-bottom: 50px;">
-                    <div class="pic"><img src="assets/img/Dr-Vazna-Muhammed-General-Practioner-150x150.jpg"></div>
-                    <div class="team-content">
-                        <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Vazna Nalakath<br></h1><span class="post" style="padding-top: 5px;">General Practitioner<br></span></div>
-                    <ul class="social">
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                    </ul>
+                <div class="d-xl-flex flex-column justify-content-between service-card"><img class="card-img" src="assets/img/dentist.png" style="margin-bottom: 10%;">
+                    <h1 style="color: rgb(255,255,255);font-family: Almarai, sans-serif;font-size: 25px;margin-left: 10%;">Dental Fillings<br></h1>
+                    <p style="color: rgb(255,255,255);font-family: Poppins, sans-serif;font-size: 12px;width: 80%;height: 220px;margin-left: 10%;line-height: 2;"><br>Minor cavities can be restored with white (tooth-colored) filling. This type of treatment is a good way of correcting a small problem before it becomes a bigger and more expensive problem.<br><br><br></p>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="2000" class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;margin-bottom: 50px;">
-                    <div class="pic"><img src="assets/img/Dr-Jyothiswara-Ashok-150x150.jpg"></div>
-                    <div class="team-content">
-                        <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Jyothiswara Ashok<br></h1><span class="post" style="padding-top: 5px;">Specialist Orthodontics</span></div>
-                    <ul class="social">
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                    </ul>
+                <div class="d-xl-flex flex-column justify-content-between service-card"><img class="card-img" src="assets/img/canal.png" style="margin-bottom: 10%;">
+                    <h1 style="color: rgb(255,255,255);font-family: Almarai, sans-serif;font-size: 25px;margin-left: 10%;">Root Canal<br></h1>
+                    <p style="color: rgb(255,255,255);font-family: Poppins, sans-serif;font-size: 12px;width: 80%;height: 220px;margin-left: 10%;line-height: 2;"><br>A root canal is a treatment used to repair and save a tooth that is badly decayed and pulp is infected. During a root canal procedure, the tooth nerves are removed and the inside of the tooth is cleaned and sealed.<br><br><br></p>
                 </div>
-                <div data-aos="fade" data-aos-duration="2500" class="our-team" style="max-width: 250px;background: rgb(255,255,255);box-shadow: 0px 0px 9px 2px rgba(33,37,41,0.38);border-radius: 5px;min-width: 250px;margin-bottom: 50px;">
-                    <div class="pic"><img src="assets/img/Dr-Dalal-Elayan-GP-Dentist-150x150.jpg"></div>
-                    <div class="team-content">
-                        <h1 class="title" style="font-size: 15px;padding-right: 10px;padding-left: 10px;">Dr. Dalal Elayan<br></h1><span class="post" style="padding-top: 5px;">General Dentist<br></span></div>
-                    <ul class="social">
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Book Now</button></a></li>
-                        <li><a href="#"><button class="btn btn-primary" data-bs-hover-animate="pulse" type="button" style="background: rgb(255,255,255);color: rgb(78,80,82);font-family: Poppins, sans-serif;font-weight: bold;border-radius: 15px;font-size: 10px;border-width: 0px;padding-right: 15px;padding-left: 15px;">Read More</button></a></li>
-                    </ul>
+                <div class="d-xl-flex flex-column justify-content-between service-card"><img class="card-img" src="assets/img/dental.png" style="margin-bottom: 10%;">
+                    <h1 style="color: rgb(255,255,255);font-family: Almarai, sans-serif;font-size: 25px;margin-left: 10%;">Dentures<br></h1>
+                    <p style="color: rgb(255,255,255);font-family: Poppins, sans-serif;font-size: 12px;width: 80%;height: 220px;margin-left: 10%;line-height: 2;"><br>When a tooth is lost, it affects the function of chewing and reduces our health in course of time. One missing tooth further increases the load on the remaining healthy teeth and weaken them too in time.<br><br><br></p>
                 </div>
+                <div class="d-xl-flex flex-column justify-content-between service-card"><img class="card-img" src="assets/img/dental%20(1).png" style="margin-bottom: 10%;">
+                    <h1 style="color: rgb(255,255,255);font-family: Almarai, sans-serif;font-size: 25px;margin-left: 10%;">Scaling and Polishing<br></h1>
+                    <p style="color: rgb(255,255,255);font-family: Poppins, sans-serif;font-size: 12px;width: 80%;height: 220px;margin-left: 10%;line-height: 2;"><br>To ensure a beautiful healthy smile for life, we must brush our teeth twice a day. However, overtime, it leads to the building-up of plaque and hard deposits called tartar or calculus.<br><br><br></p>
+                </div>
+                <div class="d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center" style="width: 100%;margin-top: 5%;"><a href="services.html" style="color: rgb(255,255,255);font-family: Poppins, sans-serif;">View All Services</a></div>
             </div>
         </div>
     </section>
-    <section id="services" style="background: url(&quot;assets/img/service-bg.jpg&quot;) center / cover no-repeat, rgb(255,255,255);padding-top: 7%;padding-bottom: 5%;">
-        <div class="container">
-            <div class="d-flex justify-content-center">
-                <h1 style="font-family: Poppins, sans-serif;font-weight: bold;font-size: 35px;">Services</h1>
-            </div>
-
-            <div class="row">
-    
-                <div class="col-lg-12">
-    
-    
-                    <ul class="filters text-center">
-                        <li class="active" data-filter="*"><a href="#!">All</a></li>
-                        <li data-filter=".dental"><a href="#!">General Dentistry</a></li>
-                        <li data-filter=".orthodontics"><a href="#!">Orthodontics</a></li>
-                        <li data-filter=".lab"><a href="#!">General Medicine</a></li>
-                    </ul>
-    
-                    <div class="projects">
-    
-                        <div class="row dentalRow">
-    
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental ">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/PREVENTIVE-DENTISTRY-750x750.jpg">
-                                        <h1 class="card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/width: 155px;">Preventive Dentistry</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">Never wait for a dental problem. However, well you brush your teeth there are surfaces of the teeth that you cannot clean effectively. At regular check-up exams, prevent them from happening.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-    
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Gum%20Health%20750%20x%20750.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Gum Health</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">When regular cleaning of teeth is not done and oral hygiene is ignored they lead to bacteria growing in number. Other factors increase that increase the susceptibility to gum disease include genetics and stress.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/root-canal-treatment-miranda.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Root Canal</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">A root canal is a treatment used to repair and save a tooth that is badly decayed and pulp is infected. During a root canal procedure, the tooth nerves are removed and the inside of the tooth is cleaned and sealed.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Dental-Fillings_Bleu-Dentistry.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Dental Fillings</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">Minor cavities can be restored with white (tooth-colored) filling. This type of treatment is a good way of correcting a small problem before it becomes a bigger and more expensive problem.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                       
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Crowns-Bridges-.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Crowns and Bridges</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">Dental crowns and bridges offer a way to protect weak, damaged and missing teeth while providing an aesthetic improvement. By combining function with esthetics, our team works with you to create attractive and functional
-                                                dental restorations.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-    
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Tooth_Extraction%20750%20x%20750.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Extractions</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">Even though it is always preferable to preserve natural teeth, sometimes it is necessary to remove the teeth that are grossly decayed mobile teeth with periodontal problems, misaligned tooth also known as wisdom teeth.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Beautiful%20Smile.webp">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Esthetic Dentistry</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">A Hollywood Smile Makeover or simply a Smile design is the process of improving the appearance of your smile through one or more cosmetic dental procedures, such as veneers, crowns, composite bonding, dental implants and
-                                                teeth whitening.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-    
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/children-dentistry-treatment-service-500x500.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Child Dentistry</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">Parents often tend to disregard the oral health and hygiene of the milk teeth assuming that these teeth will go away once the permanent teeth come. The pediatric dentist may schedule additional visits for children who are
-                                                susceptible to tooth decay .<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-    
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Dental%20Braces.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Dental Braces</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">Straight teeth contribute to healthy teeth and gums. Properly aligned teeth and jaws may alleviate or prevent physical health problems. Teeth that work better also tend to look better.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/denture.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Dentures</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">When a tooth is lost, it affects the function of chewing and reduces our health in course of time. One missing tooth further increases the load on the remaining healthy teeth and weaken them too in time.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/dental-implant.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Dental Implants</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">Dental implants are the present most advantageous solution to replace lost tooth. They offer an excellent fixed (non-removable) solution to replace a single tooth or even many teeth that have been lost.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item dental">
-                                
-                                <div class="card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Polishing.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Scaling and Polishing</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 12px;">To ensure a beautiful healthy smile for life, we must brush our teeth twice a day. However, overtime, it leads to the building-up of plaque and hard deposits called tartar or calculus.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics">
-                                
-                                <div class="card orthodontics-card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Invisalign Braces.png">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Invisalign</h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 11px;">Invisalign uses virtually invisible aligners that you wear over your teeth. These clear aligners are custom-made for you and will gently and gradually shift your teeth in place. Invisalign aligners have no metal brackets or wires that need to be tightened, they are removable and can help you achieve a great smile without having to change your lifestyle.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics">
-                                
-                                <div class="card orthodontics-card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/lingual-braces.png">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Incognito Lingual Braces
-                                        </h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 11px;">Incognito braces are applied to the back of your teeth so no one will know you’re wearing braces. These “hidden” braces are customized with intelligent wires and brackets designed to deliver the individualized results your teeth need. Incognito braces are effective in fixing all types of cases for both children and adult.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-
-
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics">
-                                
-                                <div class="card orthodontics-card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/damon-braces.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Damon Braces
-                                        </h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 11px;">The Damon braces uses "self-ligating" braces that are designed to be discreet, comfortable and easy to keep clean. Damon braces has brackets that hold the wire in place without the need for elastics or metal ties, thus allowing for more freedom of movement and eliminating the need for tightening.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-
-
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics">
-                                
-                                <div class="card orthodontics-card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Ceramic Braces.png">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Ceramic Braces
-                                        </h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 11px;">Ceramic braces are made of strong composite materials that are made to match the color of the teeth. They are less noticeable making them a popular choice among many patients. The brackets are made of ceramic or porcelain materials and the wires are made of metal alloys and deliver a constant, gentle force to move teeth.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-
-
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics">
-                                
-                                <div class="card orthodontics-card" style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px;">
-                                    <div class="card-head"><img class="img-fluid card-img" src="assets/img/Metalic Braces.jpg">
-                                        <h1 class="text-center d-flex justify-content-center align-items-center card-heading" style="font-size: 16px;font-family: Poppins, sans-serif;/*font-weight: bold;*/height: 48px;">Metal Braces
-                                        </h1>
-                                        <div class="text-justify d-flex justify-content-center align-items-center card-hover">
-                                            <p class="card-desc" style="font-size: 11px;">Metal braces are the more traditional treatment option for correcting bites and crooked teeth. Strong, stainless steel brackets, tiny rubber bands called "ligatures" or "o-rings" and wires make up these braces. Metal brackets are less expensive than other bracket types. Patients are also offered a variety of choices when it comes to the colors of the ligatures.<br></p>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics"></div>
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics"></div>
-                            <div class=" col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 item orthodontics"></div>
-    
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item lab">
-                                
-                                <div  style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px; margin-bottom: 30px;">
-                                        <a href="assets/img/Wellness Profile 249.jpeg" data-lightbox="lab-services">
-                                            <img class="img-fluid" src="assets/img/Wellness Profile 249.jpeg" alt="" style="border-radius: 5px;">
-                                        </a>
-                                </div>
-    
-                            </div>
-    
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item lab">
-                                
-                                <div  style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px; margin-bottom: 30px;">
-                                        <a href="assets/img/Master Healthcheck 399.jpeg" data-lightbox="lab-services">
-                                            <img class="img-fluid" src="assets/img/Master Healthcheck 399.jpeg" alt="" style="border-radius: 5px;">
-                                        </a>
-                                </div>
-    
-                            </div>
-    
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 item lab">
-                                
-                                <div  style="box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);border-radius: 5px; margin-bottom: 30px;">
-                                        <a href="assets/img/Executive Healthcheck 499.jpeg" data-lightbox="lab-services">
-                                            <img class="img-fluid" src="assets/img/Executive Healthcheck 499.jpeg" alt="" style="border-radius: 5px;">
-                                        </a>
-                                </div>
-    
-                            </div>
-                               
-                            
-    
-                        </div>
-    
-                    </div>
-    
-                </div>
-    
-            </div>
-    
-        </div>
-    </section>
-    <section id="insurance" style="margin-bottom: 5%;padding-top: 10%;padding-bottom: 5%;">
+   
+    <section id="insurance" style="margin-bottom: 5%;padding-top: 7%;padding-bottom: 5%;">
         <div class="text-center d-flex justify-content-center align-items-center">
-            <h1 class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center" style="font-family: Poppins, sans-serif;font-weight: bold;padding-bottom: 5%;font-size: 35px;padding-top: 25px;"><br><strong>Our Insurance Partners</strong><br></h1>
+            <h1 class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center" style="font-family: Alatsi, sans-serif;font-weight: bold;padding-bottom: 5%;font-size: 40px;padding-top: 25px;"><br><strong>Our Insurance Partners</strong><br></h1>
         </div>
         <div class="large-insurance">
             <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center flex-wrap justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="100" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;background: #ffffff;"><img class="d-lg-flex justify-content-lg-center align-items-lg-center" src="assets/img/IN-1.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="100" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;background: #ffffff;"><img class="d-lg-flex justify-content-lg-center align-items-lg-center" src="assets/img/IN-1.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="200" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;background: #ffffff;"><img src="assets/img/IN-2.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="200" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;background: #ffffff;"><img src="assets/img/IN-2.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="300" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;background: #ffffff;"><img src="assets/img/IN-3.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="300" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;background: #ffffff;"><img src="assets/img/IN-3.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="400" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-4.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="400" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-4.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="500" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-5.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="500" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-5.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="600" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-6.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="600" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-6.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="700" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-7.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="700" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-7.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="800" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-8.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="800" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-8.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="900" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-9.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="900" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-9.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-10.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-10.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1100" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-11.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1100" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-11.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1200" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-12.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1200" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-12.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1300" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-13.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1300" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-13.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1400" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-14.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1400" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-14.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1500" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-15.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1500" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-15.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1600" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-16.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1600" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-16.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1700" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-17.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1700" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-17.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1800" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-18.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1800" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-18.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="1900" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-19.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="1900" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-19.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="2000" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-20.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="2000" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-20.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="2100" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-21.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="2100" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-21.jpg" style="width: 150px;"></div>
                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                    data-aos="fade-down" data-aos-duration="2200" data-aos-once="true" style="box-shadow: 0px 0px 16px 1px rgba(33,37,41,0.14);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-22.jpg" style="width: 150px;"></div>
+                    data-aos="fade-down" data-aos-duration="2200" data-aos-once="true" style="box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);max-width: 200px;border-radius: 8px;margin: 10px;padding: 2px;width: 200px;height: 120px;"><img src="assets/img/IN-22.jpg" style="width: 150px;"></div>
             </div>
         </div>
         <div class="carousel slide" data-ride="carousel" id="carousel-8">
@@ -760,7 +388,7 @@
             </div>
             <div><a class="carousel-control-prev" href="#carousel-8" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-8" role="button"
                     data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
-            <ol class="carousel-indicators" style="background: rgba(89,244,249,0.73);border-radius: 15px;padding-right: 10px;padding-left: 10px;">
+            <ol class="carousel-indicators" style="background: rgba(0,76,170,0.79);border-radius: 15px;padding-right: 10px;padding-left: 10px;">
                 <li data-target="#carousel-8" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-8" data-slide-to="1"></li>
                 <li data-target="#carousel-8" data-slide-to="2"></li>
@@ -786,11 +414,11 @@
             </ol>
         </div>
     </section>
-    <div id="gallery" class="photo-gallery" style="background: url(&quot;assets/img/bg2.jpg&quot;) center / cover no-repeat;">
+    <div id="gallery" class="photo-gallery" style="background: url(&quot;assets/img/gallery-bg.jpg&quot;) center / cover no-repeat;">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center" style="padding-top: 15%;">Gallery</h2>
-                <p class="text-center" style="font-size: 15px;">&nbsp;From a humble beginning as a small dental clinic in Sharjah now it has grown with the trust of its patients to one of the best dental and top medical centers in Sharjah.<br><br></p>
+                <h2 class="text-center" style="padding-top: 20%;color: rgb(255,255,255);font-family: Almarai, sans-serif;font-size: 40px;">Gallery</h2>
+                <p class="text-center" style="font-size: 15px;color: rgb(184,193,198);">&nbsp;From a humble beginning as a small dental clinic in Sharjah now it has grown with the trust of its patients to one of the best dental and top medical centers in Sharjah.<br><br></p>
             </div>
             <div class="carousel slide small-gallery" data-ride="carousel" id="carousel-2">
                 <div class="carousel-inner">
@@ -827,46 +455,22 @@
             <div class="row d-lg-flex flex-row justify-content-lg-center">
                 <div class="col-md-12 col-lg-6 col-xl-6 d-xl-flex flex-column justify-content-xl-start align-items-xl-start" style="border-bottom-width: 0px;border-bottom-style: solid;margin-bottom: 30px;">
                     <div style="padding-top: 10%;">
-                        <h1 style="font-family: Poppins, sans-serif;font-weight: bold;font-size: 35px;"><strong>Make An Appointment</strong><br></h1>
-                        <p style="color: rgb(75,76,77);font-size: 15px;padding-top: 10px;">ADD WE WILL CONTACT YOU</p>
+                        <h1 style="font-family: Almarai, sans-serif;font-weight: normal;font-size: 35px;"><strong>Make An Appointment</strong><br></h1>
+                        <p style="color: rgb(75,76,77);font-size: 15px;padding-top: 10px;font-family: Poppins, sans-serif;">ADD WE WILL CONTACT YOU</p>
                     </div>
-                    <form style="padding-top: 5%;" action="https://alafdal-mailer.vercel.app/api/" method="POST">
-                        <div style="padding: 20px;border-bottom: 1px solid rgb(206,212,218);">
-                            <select class="form-control" name="department" style="font-family: Poppins, sans-serif;font-size: 15px;font-style: oblique;font-weight: 100;border-width: 0px;" required>
-                                <option selected>Select Department</option>
-                                <option value="General Dentistry">General Dentistry</option>
-                                <option value="Orthodontics">Orthodontics</option>
-                                <option value="Orthodontics">General Medicine</option>
-                            </select>
-                        </div>
-                        <div style="padding: 20px;border-bottom: 1px solid rgb(206,212,218);">
-                            <select class="form-control" name="doctor" style="font-family: Poppins, sans-serif;font-size: 15px;font-style: oblique;font-weight: 100;border-width: 0px;" required>
-                                <option selected>Select Doctor</option>
-                                <option value="Dr. Bhavna C Mohan">Dr. Bhavna C Mohan</option>
-                                <option value="Dr. Prateek Mathur">Dr. Prateek Mathur</option>
-                                <option value="Dr. Vazna Nalakath">Dr. Vazna Nalakath</option>
-                                <option value="Dr. Jyothiswara Ashok">Dr. Jyothiswara Ashok</option>
-                                <option value="Dr. Dalal Elayan">Dr. Dalal Elayan</option>
-                            </select>
-                        </div>
-                        <input
-                            class="form-control" type="text" style="border-width: 0px;border-style: none;border-bottom-width: 1px;border-bottom-style: solid;border-radius: 0px;font-family: Poppins, sans-serif;font-size: 15px;font-weight: 100;font-style: oblique;padding: 30px;padding-top: 40px;padding-right: 30px;"
-                            placeholder="Full Name" name="name" required>
-                        <input class="form-control" type="text" style="border-width: 0px;border-style: none;border-bottom-width: 1px;border-bottom-style: solid;border-radius: 0px;font-family: Poppins, sans-serif;font-size: 15px;font-weight: 100;font-style: oblique;padding: 30px;padding-top: 40px;"
-                                placeholder="Age" name="age" required>
-                        <input class="form-control" type="email" name="email" placeholder="Email" style="font-family: Poppins, sans-serif;font-size: 15px;padding: 30px;padding-top: 40px;border-width: 0px;border-bottom-width: 1px;border-radius: 0px;font-weight: 100;font-style: oblique;" required>
-                            
-                        <input
-                                class="form-control" type="tel" name="phone" style="border-width: 0px;border-style: solid;border-bottom-width: 1px;padding: 30px;padding-bottom: 30px;border-radius: 0px;padding-top: 30px;font-weight: 100;font-style: italic;font-family: Poppins, sans-serif;font-size: 15px;"
-                                placeholder="Phone" required>
-                                
-                        <input class="form-control" type="date" name="date" style="border-width: 0px;border-bottom-width: 1px;border-radius: 0px;padding: 30px;padding-top: 40px;font-family: Poppins, sans-serif;font-weight: 100;font-style: oblique;font-size: 15px;"
-                                    placeholder="Date" required>
-
-                        <input class="form-control" type="time" name="time" style="border-width: 0px;border-bottom-width: 1px;border-radius: 0px;padding: 30px;padding-top: 40px;font-family: Poppins, sans-serif;font-weight: 100;font-style: oblique;font-size: 15px;"
-                                    placeholder="Time" required>
-                        <textarea class="form-control" name="message" id="" rows="5" placeholder="Message"></textarea>
-                        <button class="btn btn-primary" type="submit" style="margin-top: 30px;background: #59f4f9;border-width: 0px;border-color: #59f4f9;border-bottom-width: 0px;border-bottom-color: #b9f7f9;border-radius: 24px;font-family: Poppins, sans-serif;font-size: 15px;font-weight: bold;padding-right: 25px;padding-left: 25px;padding-top: 10px;padding-bottom: 10px;">Book Now</button>
+                    <form class="form-inline d-sm-flex flex-wrap align-items-sm-center" style="padding-top: 5%;" action="https://alafdal-mailer.vercel.app/api/" method="post">
+                        <div style="border-bottom: 1px solid rgb(206,212,218);padding: 20px;width: 100%;"><select class="form-control" style="font-family: Poppins, sans-serif;font-size: 15px;font-style: oblique;font-weight: 100;border-radius: 0px;margin-bottom: 0px;border-width: 0px;border-bottom-width: 0px;border-bottom-style: solid;width: 100%;"
+                                name="department" required=""><option value="" selected="">Select Department</option><option value="Dental">Dental</option><option value="Orthodontics">Orthodontics</option></select></div>
+                        <div style="border-bottom: 1px solid rgb(206,212,218);padding: 20px;width: 100%;"><select class="form-control" style="font-family: Poppins, sans-serif;font-size: 15px;font-style: oblique;font-weight: 100;border-radius: 0px;margin-bottom: 0px;border-width: 0px;border-bottom-width: 0px;border-bottom-style: solid;width: 100%;"
+                                name="doctor" required=""><option value="" selected="">Select Doctors</option><option value="Dr. Bhava c Mohan">Dr. Bhava c Mohan</option></select></div><input class="form-control" type="text" style="border-width: 0px;border-style: none;border-bottom-width: 1px;border-bottom-style: solid;border-radius: 0px;font-family: Poppins, sans-serif;font-size: 15px;font-weight: 100;font-style: oblique;padding: 30px;padding-top: 40px;padding-right: 30px;width: 100%;"
+                            placeholder="Full Name" name="name" required=""><input class="form-control" type="text" style="border-width: 0px;border-style: none;border-bottom-width: 1px;border-bottom-style: solid;border-radius: 0px;font-family: Poppins, sans-serif;font-size: 15px;font-weight: 100;font-style: oblique;padding: 30px;padding-top: 40px;width: 100%;"
+                            placeholder="Age" name="age" required=""><input class="form-control" type="email" placeholder="Email" style="font-family: Poppins, sans-serif;font-size: 15px;padding: 30px;padding-top: 40px;border-width: 0px;border-bottom-width: 1px;border-radius: 0px;font-weight: 100;font-style: oblique;width: 100%;"
+                            name="email" required=""><input class="form-control" type="tel" style="border-width: 0px;border-style: solid;border-bottom-width: 1px;padding: 30px;padding-bottom: 30px;border-radius: 0px;padding-top: 30px;font-weight: 100;font-style: italic;font-family: Poppins, sans-serif;font-size: 15px;width: 100%;"
+                            placeholder="Phone" name="phone" required=""><input class="form-control" type="date" style="border-width: 0px;border-bottom-width: 1px;border-radius: 0px;padding: 30px;padding-top: 40px;font-family: Poppins, sans-serif;font-weight: 100;font-style: oblique;font-size: 15px;width: 100%;"
+                            placeholder="Date" name="date" required=""><input class="form-control" type="time" style="border-width: 0px;border-bottom-width: 1px;border-radius: 0px;padding: 30px;padding-top: 40px;font-family: Poppins, sans-serif;font-weight: 100;font-style: oblique;font-size: 15px;width: 100%;"
+                            placeholder="Time" name="time" required=""><textarea class="form-control" name="message" style="width: 100%;font-family: Poppins, sans-serif;font-weight: 10;font-size: 15px;padding: 30px;" placeholder="Message"></textarea>
+                        <button
+                            class="btn btn-primary" type="submit" style="margin-top: 30px;background: #004caa;border-width: 0px;border-color: #59f4f9;border-bottom-width: 0px;border-bottom-color: #b9f7f9;border-radius: 24px;font-family: Poppins, sans-serif;font-size: 15px;font-weight: bold;padding-right: 25px;padding-left: 25px;padding-top: 10px;padding-bottom: 10px;">Book Now</button>
                     </form>
                 </div>
                 <div class="col-lg-6 col-xl-6 testimonial-large">
@@ -875,7 +479,7 @@
                             <div class="carousel-item active">
                                 <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
                                     <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;margin: 15px;height: 500px;">
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;margin: 15px;height: 500px;">
                                         <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
                                             style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/testimonial_img-11.jpeg" style="border-radius: 50%;width: 60px;">
                                             <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Marwan Sbeih</strong><br><br></h1>
@@ -888,7 +492,7 @@
                                         </div>
                                     </div>
                                     <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 500px;">
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 500px;">
                                         <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
                                             style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/team-4.png" style="border-radius: 50%;width: 60px;">
                                             <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Shweta Hoani</strong><br><br><br></h1>
@@ -905,7 +509,7 @@
                             <div class="carousel-item">
                                 <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
                                     <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;margin: 15px;height: 500px;">
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;margin: 15px;height: 500px;">
                                         <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
                                             style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/Team-3-150x150.png" style="border-radius: 50%;width: 60px;">
                                             <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Khayyam Abdu</strong><br><br></h1>
@@ -918,7 +522,7 @@
                                         </div>
                                     </div>
                                     <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 500px;">
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 500px;">
                                         <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
                                             style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/team-4.png" style="border-radius: 50%;width: 60px;">
                                             <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Saifee Para</strong><br><br></h1>
@@ -944,14 +548,13 @@
                 <div class="col-lg-6 col-xl-6 testimonial-small">
                     <div class="carousel slide" data-ride="carousel" id="carousel-4">
                         <div class="carousel-inner">
-                                   
                             <div class="carousel-item active">
                                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
                                     <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 350px;">
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 350px;">
                                         <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-start justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
                                             style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/testimonial_img-11.jpeg" style="border-radius: 50%;width: 60px;">
-                                            <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Marwan Sbeih</strong><br><br><br></h1>
+                                            <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Marwan Sbeih</strong><br><br><br><br><br></h1>
                                         </div>
                                         <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
                                             <div style="border-right: 1px solid rgb(255,255,255);padding: 10px;"><span style="font-family: Poppins, sans-serif;color: rgb(255,255,255);font-size: 31px;font-weight: 100;">99</span></div>
@@ -962,11 +565,27 @@
                                     </div>
                                 </div>
                             </div>
-                            
                             <div class="carousel-item">
                                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
                                     <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 350px;">
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 350px;">
+                                        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-start justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
+                                            style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/team-4.png" style="border-radius: 50%;width: 60px;">
+                                            <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Shweta Hoani</strong><br><br><br></h1>
+                                        </div>
+                                        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
+                                            <div style="border-right: 1px solid rgb(255,255,255);padding: 10px;"><span style="font-family: Poppins, sans-serif;color: rgb(255,255,255);font-size: 31px;font-weight: 100;">99</span></div>
+                                            <div style="padding: 10px;">
+                                                <p style="color: rgb(255,255,255);font-size: 12px;"><br>Visited for consultation. Well treated by Dr Tarnnum Yasmin. Really impressed by her knowledge in dentistry as well in cosmetology. Thank a lot Doc<br><br></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
+                                    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 350px;">
                                         <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-start justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
                                             style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/team-4.png" style="border-radius: 50%;width: 60px;">
                                             <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Saifee Para</strong><br><br></h1>
@@ -981,29 +600,10 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="carousel-item">
                                 <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
                                     <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;padding-bottom: 0px;height: 350px;">
-                                        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-start justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
-                                            style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/team-4.png" style="border-radius: 50%;width: 60px;">
-                                            <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Shweta Hoani</strong><br><br><br></h1>
-                                        </div>
-                                        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
-                                            <div style="border-right: 1px solid rgb(255,255,255);padding: 10px;"><span style="font-family: Poppins, sans-serif;color: rgb(255,255,255);font-size: 31px;font-weight: 100;">99</span></div>
-                                            <div style="padding: 10px;">
-                                                <p style="color: rgb(255,255,255);font-size: 12px;"><br>Visited for consultation. Well treated by Dr Tarnnum Yasmin. Really impressed by her knowledge in dentistry as well in cosmetology. Thank a lot Doc<br><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="carousel-item">
-                                <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center">
-                                    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-                                        style="background: url(&quot;assets/img/Rounded-Rectangle-1202-copy-21.jpg&quot;) center / cover no-repeat;width: 250px;margin: 15px;height: 350px;">
+                                        style="background: url(&quot;assets/img/blue-testimonial.jpg&quot;) center / cover no-repeat;width: 250px;margin: 15px;height: 350px;">
                                         <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column justify-content-center align-items-start justify-content-sm-center align-items-sm-start justify-content-md-center align-items-md-start justify-content-lg-center align-items-lg-start justify-content-xl-center align-items-xl-start"
                                             style="border-radius: 50%;padding-top: 40px;"><img src="assets/img/Team-3-150x150.png" style="border-radius: 50%;width: 60px;">
                                             <h1 style="font-size: 19px;color: rgb(255,255,255);margin-bottom: 0px;height: 40px;padding-top: 10px;"><strong>Khayyam Abdu</strong><br><br></h1>
@@ -1030,7 +630,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-dark">
+    <div class="footer-dark" style="background: #000066;">
         <footer>
             <div class="container">
                 <div class="row">
@@ -1040,10 +640,7 @@
             </div>
         </footer>
     </div>
-    
     <div data-bs-hover-animate="pulse" class="whatsapp-link"><a href="https://web.whatsapp.com/send?phone=971501741154"><img src="assets/img/whatsapp%20(1).png" style="width: 60px;height: 60px;"></a></div>
-
-        
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
@@ -1052,9 +649,6 @@
     <script src="assets/js/Filterable-Gallery-with-Lightbox.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/filter.js"></script>
 </body>
 
 </html>

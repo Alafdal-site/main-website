@@ -17,19 +17,19 @@ ul.filters > li{
 
 ul.filters > li > a{
     display: block;
-    color: #434e5e;
+    color: #ffffff;
     text-decoration: none;
     padding: 5px 20px;
     font-size: 18px;
 }
 
 ul.filters > li > a:hover{
-    background-color: #e6e9ed;
+    background-color: #ffffff34;
 }
 
 ul.filters > li.active > a{
-    color: #fff;
-    background-color: #59f4f9;
+    color: #004caa;
+    background-color: #ffffff;
 }
 
 .card{
