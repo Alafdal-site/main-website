@@ -319,6 +319,9 @@ our-team:hover .pic::before {
   #carousel-8 {
     display: none;
   }
+  #view-all-insurance {
+    display: none;
+  }
 }
 
 .card {
