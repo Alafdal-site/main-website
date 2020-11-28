@@ -350,3 +350,13 @@ body.hidden-scroll {
 @keyframes opacity {
 }
 
+
+.doctor-booking {
+  display: none;
+}
+
+.doctors-card:hover .doctor-booking {
+  display: block;
+}
+
+

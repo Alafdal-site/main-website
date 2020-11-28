@@ -69,47 +69,12 @@
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/Testimonials.css" />
-    <script>
-      window.addEventListener("load", function () {
-        let arr = [
-          {
-            name: "Dr. Bhava c Mohan",
-            dept: "General Dentistry",
-            keyword: "Bhavna",
-          },
-          {
-            name: "Dr. Prateek Mathur",
-            dept: "General Dentistry",
-            keyword: "Prateek",
-          },
-          {
-            name: "Dr. Sanjana",
-            dept: "General Dentistry",
-            keyword: "Sanjana",
-          },
-          {
-            name: "Dr. Navya John",
-            dept: "General Dentistry",
-            keyword: "Navya",
-          },
-        ];
-        const urlParams = new URLSearchParams(window.location.search);
-        let doc = urlParams.get("doctor");
-        console.log({ doc });
-        for (let obj of arr) {
-          if (obj.keyword.toLowerCase() === doc.toLowerCase()) {
-            document.getElementById("department").value = obj.dept;
-            document.getElementById("doctor").value = obj.name;
-          }
-        }
-      });
-    </script>
   </head>
 
   <body>
     <section style="background: #004caa">
       <div class="d-flex align-items-center" style="height: 70px">
-        <a href="doctors.html" style="margin-left: 5%; padding: 20px"
+        <a href="index.html#treatments" style="margin-left: 5%; padding: 20px"
           ><img src="assets/img/arrow.png" style="width: 20px"
         /></a>
       </div>
@@ -149,7 +114,7 @@
             <form
               class="form-inline d-sm-flex flex-wrap align-items-sm-center"
               style="padding-top: 5%"
-              action="https://alafdal-mailer.vercel.app/api/"
+              action="https://alafdal-mailer.vercel.app/api/booking-service"
               method="post"
             >
               <div
@@ -172,45 +137,28 @@
                     border-bottom-style: solid;
                     width: 100%;
                   "
-                  name="department"
+                  name="service"
                   required=""
-                  id="department"
                 >
-                  <option value="" selected="">Select Department</option>
-                  <option value="General Dentistry">General Dentistry</option>
-                  <option value="Orthodontics">Orthodontics</option>
-                  <option value="General Medicine">General Medicine</option>
-                </select>
-              </div>
-              <div
-                style="
-                  border-bottom: 1px solid rgb(206, 212, 218);
-                  padding: 20px;
-                  width: 100%;
-                "
-              >
-                <select
-                  class="form-control"
-                  style="
-                    font-family: Poppins, sans-serif;
-                    font-size: 15px;
-                    font-weight: 100;
-                    border-radius: 0px;
-                    margin-bottom: 0px;
-                    border-width: 0px;
-                    border-bottom-width: 0px;
-                    border-bottom-style: solid;
-                    width: 100%;
-                  "
-                  name="doctor"
-                  required=""
-                  id="doctor"
-                >
-                  <option value="" selected="">Select Doctors</option>
-                  <option value="Dr. Bhava c Mohan">Dr. Bhava c Mohan</option>
-                  <option value="Dr. Prateek Mathur">Dr. Prateek Mathur</option>
-                  <option value="Dr. Sanjana">Dr. Sanjana</option>
-                  <option value="Dr. Navya John">Dr. Navya John</option>
+                  <option value="" selected="">Select Package</option>
+                  <option value="Executive Health Check">
+                    Executive Health Check
+                  </option>
+                  <option value="Basic Health Check">Basic Health Check</option>
+                  <option value="Diabetic Health Check">
+                    Diabetic Health Check
+                  </option>
+                  <option value="Master Health Check">
+                    Master Health Check
+                  </option>
+                  <option value="Essential Health Check">
+                    Essential Health Check
+                  </option>
+                  <option value="Wellness Health Check">
+                    Wellness Health Check
+                  </option>
+                  <option value="AMC Anemia Profile">AMC Anemia Profile</option>
+                  <option value="Health Screening">Health Screening</option>
                 </select>
               </div>
               <input
