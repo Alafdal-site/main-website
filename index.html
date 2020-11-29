@@ -73,7 +73,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   </head>
 
-  <body style="/*width: auto;*/">
+  <body style="/*width: auto;*/" onload="preloader()">
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
     <section
       id="home"
       style="background: url('assets/img/home.jpg') bottom / contain no-repeat"
@@ -3228,5 +3231,49 @@
     <script src="assets/js/Filterable-Gallery-with-Lightbox.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+      function preloader() {
+        $(".loader_bg").fadeToggle();
+        // setTimeout(function () {
+        //   $(".loader_bg").fadeToggle();
+        // }, 1500);
+      }
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "212670117014213");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=212670117014213&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
   </body>
 </html>
