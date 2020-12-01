@@ -100,3 +100,65 @@ html {
 .doctor-booking-button:hover {
   background: rgba(54, 114, 188, 0.27);
 }
+
+.home_container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/home-gradient.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home_container .wave {
+  position: absolute;
+  width: 100%;
+  height: 143px;
+  bottom: 0;
+  left: 0;
+  background: url(../img/wave.png);
+  animation: animate 10s linear infinite;
+}
+
+.home_container .wave:before {
+  content: "";
+  width: 100%;
+  height: 143px;
+  background: url(../img/wave.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  animation: animate-reverse 10s linear infinite;
+}
+
+.home_container .wave:before {
+  content: "";
+  width: 100%;
+  height: 143px;
+  background: url(../img/wave.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  animation-delay: -5s;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 1360px;
+  }
+}
+
+@keyframes animate-reverse {
+  0% {
+    background-position: 1360px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
