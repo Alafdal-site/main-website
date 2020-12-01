@@ -108,6 +108,27 @@ html {
   background: url(../img/home-gradient.jpg);
   background-size: cover;
   background-attachment: fixed;
+  transition: 5s;
+
+  animation-name: bg_animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bg_animate {
+  0% {
+    background-image: url(../img/banner1.jpg);
+  }
+  50% {
+    background-image: url(../img/Dental-Fillings_Bleu-Dentistry.jpg);
+  }
+  100% {
+    background-image: url(../img/home-gradient.jpg);
+  }
 }
 
 .home_container .wave {
