@@ -121,10 +121,10 @@ html {
 
 @keyframes bg_animate {
   0% {
-    background-image: url(../img/home-gradient-2);
+    background-image: url(../img/home-gradient-1);
   }
   50% {
-    background-image: url(../img/home-gradient-1);
+    background-image: url(../img/home-gradient-3);
   }
   100% {
     background-image: url(../img/home-gradient-2);

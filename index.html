@@ -73,18 +73,9 @@
     <link rel="stylesheet" href="assets/css/Testimonials.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-    <script>
-      $(function () {
-        $("#nav li a").click(function () {
-          $("#nav li").removeClass();
-          $($(this).attr("href")).addClass("active");
-        });
-      });
-    </script>
   </head>
 
-  <body style="/*width: auto;*/" onload="preloader()">
+  <body style="/*width: auto;*/">
     <div class="loader_bg">
       <div class="loader"></div>
     </div>
@@ -93,8 +84,8 @@
         class="navbar navbar-light navbar-expand-md fixed-top navigation-clean"
       >
         <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img src="assets/img/logo-1.png" style="width: 150px" /></a
+          <a class="navbar-brand" href="index.html"
+            ><img src="assets/img/new logo.png" style="width: 300px" /></a
           ><button
             data-toggle="collapse"
             class="navbar-toggler"
@@ -222,10 +213,9 @@
                     role="button"
                     href="#appointment"
                     style="
-                      background: #000066;
+                      background: #00006696;
                       font-family: Poppins, sans-serif;
                       color: rgb(255, 255, 255);
-                      border-radius: 20px;
                     "
                     >Get Appointment</a
                   >
@@ -265,10 +255,9 @@
                     role="button"
                     href="#appointment"
                     style="
-                      background: #000066;
+                      background: #00006696;
                       font-family: Poppins, sans-serif;
                       color: rgb(255, 255, 255);
-                      border-radius: 20px;
                     "
                     >Get Appointment</a
                   >
@@ -305,15 +294,18 @@
                   class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center"
                   style="width: 100%"
                 >
+                <!-- background: #000066;
+                      font-family: Poppins, sans-serif;
+                      color: rgb(255, 255, 255);
+                      border-radius: 20px; -->
                   <a
                     class="btn btn-light slider-button"
                     role="button"
                     href="#appointment"
                     style="
-                      background: #000066;
+                      background: #00006696;
                       font-family: Poppins, sans-serif;
                       color: rgb(255, 255, 255);
-                      border-radius: 20px;
                     "
                     >Get Appointment</a
                   >
@@ -3505,12 +3497,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
-      function preloader() {
+      // function preloader() {
+      //   // $(".loader_bg").fadeToggle();
+      //   // setTimeout(function () {
+      //   //   $(".loader_bg").fadeToggle();
+      //   // }, 500);
+      // }
+      setTimeout(function () {
         $(".loader_bg").fadeToggle();
-        // setTimeout(function () {
-        //   $(".loader_bg").fadeToggle();
-        // }, 1500);
-      }
+      }, 1500);
     </script>
     <!-- Facebook Pixel Code -->
     <script>
