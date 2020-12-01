@@ -32,12 +32,11 @@
 .navigation-clean .navbar-brand img {
   height: 100%;
   display: inline-block;
-  margin-right: 10px;
   width: auto;
 }
 
 .navigation-clean .navbar-toggler {
-  border-color: #ddd;
+  border-color: rgb(255, 255, 255);
 }
 
 .navigation-clean .navbar-toggler:hover,
@@ -46,15 +45,15 @@
 }
 
 .navigation-clean.navbar-dark .navbar-toggler {
-  border-color: #555;
+  border-color: rgb(255, 255, 255);
 }
 
 .navigation-clean .navbar-toggler {
-  color: #888;
+  color: rgb(255, 255, 255);
 }
 
 .navigation-clean.navbar-dark .navbar-toggler {
-  color: #eee;
+  color: rgb(255, 255, 255);
 }
 
 .navigation-clean .navbar-collapse,

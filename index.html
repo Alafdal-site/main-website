@@ -73,6 +73,15 @@
     <link rel="stylesheet" href="assets/css/Testimonials.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <style>
+      .custom-toggler.navbar-toggler {
+        border-color: white;
+      }
+      .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+    </style>
   </head>
 
   <body style="/*width: auto;*/">
@@ -85,14 +94,16 @@
       >
         <div class="container">
           <a class="navbar-brand" href="index.html"
-            ><img src="assets/img/new logo.png" style="width: 300px" /></a
+            ><img src="assets/img/logo-1.png" style="width: 150px" /></a
           ><button
             data-toggle="collapse"
-            class="navbar-toggler"
+            class="navbar-toggler custom-toggler"
             data-target="#navcol-1"
           >
             <span class="sr-only">Toggle navigation</span
-            ><span class="navbar-toggler-icon"></span>
+            ><span class="navbar-toggler-icon">
+              <i class="fas fa-bars" style="color: #fff; font-size: 28px"></i>
+            </span>
           </button>
           <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav ml-auto">
@@ -103,7 +114,7 @@
                   style="
                     font-family: Poppins, sans-serif;
                     font-weight: bold;
-                    color: #000000;
+                    color: #ffffff;
                   "
                   >Home</a
                 >
@@ -115,7 +126,7 @@
                   style="
                     font-family: Poppins, sans-serif;
                     font-weight: bold;
-                    color: #000000;
+                    color: #ffffff;
                   "
                   >About</a
                 >
@@ -127,7 +138,7 @@
                   style="
                     font-family: Poppins, sans-serif;
                     font-weight: bold;
-                    color: #000000;
+                    color: #ffffff;
                   "
                   >Doctors</a
                 >
@@ -139,7 +150,7 @@
                   style="
                     font-family: Poppins, sans-serif;
                     font-weight: bold;
-                    color: #000000;
+                    color: #ffffff;
                   "
                   >Treatments</a
                 >
@@ -151,7 +162,7 @@
                   style="
                     font-family: Poppins, sans-serif;
                     font-weight: bold;
-                    color: #000000;
+                    color: #ffffff;
                   "
                   >Insurance</a
                 >
@@ -163,7 +174,7 @@
                   style="
                     font-family: Poppins, sans-serif;
                     font-weight: bold;
-                    color: #000000;
+                    color: #ffffff;
                   "
                   >Gallery</a
                 >
@@ -294,7 +305,7 @@
                   class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center"
                   style="width: 100%"
                 >
-                <!-- background: #000066;
+                  <!-- background: #000066;
                       font-family: Poppins, sans-serif;
                       color: rgb(255, 255, 255);
                       border-radius: 20px; -->
@@ -3506,6 +3517,27 @@
       setTimeout(function () {
         $(".loader_bg").fadeToggle();
       }, 1500);
+
+      $(document).scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 5) {
+          console.log({ if: scroll_pos });
+          $(".nav-link").css("color", "black");
+          $(".navbar-toggler").css("border-color", "black");
+          $(".navbar-toggler-icon").css(
+            "background-image",
+            `url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")`
+          );
+        } else {
+          console.log({ else: scroll_pos });
+          $(".nav-link").css("color", "white");
+          $(".navbar-toggler").css("border-color", "white");
+          $(".navbar-toggler-icon").css(
+            "background-image",
+            `url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")`
+          );
+        }
+      });
     </script>
     <!-- Facebook Pixel Code -->
     <script>
