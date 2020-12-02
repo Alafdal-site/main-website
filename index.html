@@ -75,11 +75,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <style>
+      .custom-toggler {
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .custom-toggler.navbar-toggler {
         border-color: white;
       }
       .custom-toggler .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      .navbar-light {
+        background-color: rgba(0, 0, 0, 0);
+      }
+      .navbar-brand {
+        height: 70px;
+        width: 250px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/img/brand-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
       }
     </style>
   </head>
@@ -90,6 +111,102 @@
     </div>
     <section class="home_container">
       <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top"
+        style="padding-left: 0"
+      >
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/img/logo-1.png" style="width: 150px; height: 50px"
+        /></a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" style="margin-left: 10px">
+              <a
+                class="nav-link"
+                href="#home"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-weight: bold;
+                  color: #ffffff;
+                "
+                >Home</a
+              >
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+              <a
+                class="nav-link"
+                href="#about"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-weight: bold;
+                  color: #ffffff;
+                "
+                >About</a
+              >
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+              <a
+                class="nav-link"
+                href="#doctors"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-weight: bold;
+                  color: #ffffff;
+                "
+                >Doctors</a
+              >
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+              <a
+                class="nav-link"
+                href="#treatments"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-weight: bold;
+                  color: #ffffff;
+                "
+                >Treatments</a
+              >
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+              <a
+                class="nav-link"
+                href="#insurance"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-weight: bold;
+                  color: #ffffff;
+                "
+                >Insurance</a
+              >
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+              <a
+                class="nav-link"
+                href="#gallery"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-weight: bold;
+                  color: #ffffff;
+                "
+                >Gallery</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <nav
         class="navbar navbar-light navbar-expand-md fixed-top navigation-clean"
       >
         <div class="container">
@@ -182,7 +299,7 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
       <div
         id="home"
         class="d-flex d-sm-flex d-md-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center justify-content-md-start align-items-md-center align-items-xl-center"
@@ -674,9 +791,9 @@
                 art dental and oral treatments under utmost sterilized
                 conditions at nominal and affordable cost<br />
               </p>
-              <button
+              <a
+                href="#appointment"
                 class="btn btn-primary"
-                type="button"
                 style="
                   background: #000066;
                   border-radius: 20px;
@@ -686,7 +803,7 @@
                 "
               >
                 Book Now
-              </button>
+              </a>
             </div>
           </div>
           <div
@@ -731,9 +848,9 @@
                 Tagalog, Marathi, Punjabi, Konkani, Telugu, Tamil and much
                 more.<br />
               </p>
-              <button
+              <a
+                href="#appointment"
                 class="btn btn-primary"
-                type="button"
                 style="
                   background: #000066;
                   border-radius: 20px;
@@ -743,7 +860,7 @@
                 "
               >
                 Book Now
-              </button>
+              </a>
             </div>
           </div>
           <div
@@ -786,9 +903,9 @@
                 ><br /><br />FRIDAY :
                 <strong> 8 AM TO 11 AM &amp; 2 PM TO 10 PM</strong><br /><br />
               </p>
-              <button
+              <a
+                href="#appointment"
                 class="btn btn-primary"
-                type="button"
                 style="
                   background: #000066;
                   border-radius: 20px;
@@ -798,7 +915,7 @@
                 "
               >
                 Book Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -2760,7 +2877,11 @@
                   <option value="Dr. Bhava c Mohan">Dr. Bhava c Mohan</option>
                   <option value="Dr. Prateek Mathur">Dr. Prateek Mathur</option>
                   <option value="Dr. Sanjana">Dr. Sanjana</option>
-                  <option value="Dr. Sanjana">Dr. Navya John</option>
+                  <option value="Dr. Navya John">Dr. Navya John</option>
+                  <option value="Dr. Jyothiswara Ashok">
+                    Dr. Jyothiswara Ashok
+                  </option>
+                  <option value="Dr. Reji Moideen">Dr. Reji Moideen</option>
                 </select>
               </div>
               <input
