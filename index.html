@@ -72,6 +72,31 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/Testimonials.css" />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <style>
@@ -113,6 +138,35 @@
           height: 3000px;
         }
       }
+
+      #treatments {
+        /* background: #004caa; */
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background: linear-gradient(-45deg, #004caa, #06254b, #0475ff);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+      }
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      @media (max-width: 991px) {
+        .navbar-collapse {
+          background-color: rgb(255, 255, 255);
+        }
+        .nav-link {
+          color: black !important;
+        }
+      }
     </style>
   </head>
 
@@ -147,9 +201,11 @@
                 class="nav-link"
                 href="#home"
                 style="
-                  font-family: Poppins, sans-serif;
-                  font-weight: bold;
+                  font-family: 'Raleway', sans-serif;
                   color: #ffffff;
+                  letter-spacing: 3px;
+                  text-transform: uppercase;
+                  font-size: 15px;
                 "
                 >Home</a
               >
@@ -159,9 +215,11 @@
                 class="nav-link"
                 href="#about"
                 style="
-                  font-family: Poppins, sans-serif;
-                  font-weight: bold;
+                  font-family: 'Raleway', sans-serif;
                   color: #ffffff;
+                  letter-spacing: 3px;
+                  text-transform: uppercase;
+                  font-size: 15px;
                 "
                 >About</a
               >
@@ -171,9 +229,11 @@
                 class="nav-link"
                 href="#doctors"
                 style="
-                  font-family: Poppins, sans-serif;
-                  font-weight: bold;
+                  font-family: 'Raleway', sans-serif;
                   color: #ffffff;
+                  letter-spacing: 3px;
+                  text-transform: uppercase;
+                  font-size: 15px;
                 "
                 >Doctors</a
               >
@@ -183,9 +243,11 @@
                 class="nav-link"
                 href="#treatments"
                 style="
-                  font-family: Poppins, sans-serif;
-                  font-weight: bold;
+                  font-family: 'Raleway', sans-serif;
                   color: #ffffff;
+                  letter-spacing: 3px;
+                  text-transform: uppercase;
+                  font-size: 15px;
                 "
                 >Treatments</a
               >
@@ -195,9 +257,11 @@
                 class="nav-link"
                 href="#insurance"
                 style="
-                  font-family: Poppins, sans-serif;
-                  font-weight: bold;
+                  font-family: 'Raleway', sans-serif;
                   color: #ffffff;
+                  letter-spacing: 3px;
+                  text-transform: uppercase;
+                  font-size: 15px;
                 "
                 >Insurance</a
               >
@@ -207,9 +271,11 @@
                 class="nav-link"
                 href="#gallery"
                 style="
-                  font-family: Poppins, sans-serif;
-                  font-weight: bold;
+                  font-family: 'Raleway', sans-serif;
                   color: #ffffff;
+                  letter-spacing: 3px;
+                  text-transform: uppercase;
+                  font-size: 15px;
                 "
                 >Gallery</a
               >
@@ -424,9 +490,10 @@
               />
               <h1
                 style="
-                  font-family: Alatsi, sans-serif;
-                  font-size: 30px;
+                  font-family: 'Montserrat', sans-serif;
+                  font-size: 25px;
                   margin-top: 10%;
+                  text-transform: uppercase;
                 "
               >
                 Our Mission
@@ -448,7 +515,6 @@
                 class="btn btn-primary"
                 style="
                   background: #000066;
-                  border-radius: 20px;
                   padding-left: 20px;
                   padding-right: 20px;
                   margin-bottom: 20px;
@@ -479,9 +545,10 @@
               />
               <h1
                 style="
-                  font-family: Alatsi, sans-serif;
-                  font-size: 30px;
+                  font-family: 'Montserrat', sans-serif;
+                  font-size: 25px;
                   margin-top: 10%;
+                  text-transform: uppercase;
                 "
               >
                 Multilingual
@@ -505,7 +572,6 @@
                 class="btn btn-primary"
                 style="
                   background: #000066;
-                  border-radius: 20px;
                   padding-left: 20px;
                   padding-right: 20px;
                   margin-bottom: 20px;
@@ -536,9 +602,10 @@
               />
               <h1
                 style="
-                  font-family: Alatsi, sans-serif;
-                  font-size: 30px;
+                  font-family: 'Montserrat', sans-serif;
+                  font-size: 25px;
                   margin-top: 10%;
+                  text-transform: uppercase;
                 "
               >
                 Opening Hours
@@ -560,7 +627,6 @@
                 class="btn btn-primary"
                 style="
                   background: #000066;
-                  border-radius: 20px;
                   padding-left: 20px;
                   padding-right: 20px;
                   margin-bottom: 20px;
@@ -588,7 +654,7 @@
       >
         <h1
           style="
-            font-family: Almarai, sans-serif;
+            font-family: 'Raleway', sans-serif;
             padding-bottom: 8%;
             margin-bottom: 5px;
             height: auto;
@@ -624,7 +690,13 @@
     <section id="doctors" style="padding-top: 7%; padding-bottom: 10%">
       <h1
         class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center"
-        style="font-family: Alatsi, sans-serif; padding-bottom: 5%"
+        style="
+          font-family: 'Raleway', sans-serif;
+          text-transform: uppercase;
+          font-size: 35px;
+          letter-spacing: 2px;
+          padding-bottom: 5%;
+        "
       >
         Our Doctors
       </h1>
@@ -941,22 +1013,23 @@
         >
       </div>
     </section>
-    <div id="particles-js"></div>
-    <section
-      id="treatments"
-      style="background: #004caa; padding-top: 5%; padding-bottom: 5%"
-    >
+    <!-- <div id="particles-js"></div> -->
+    <section id="treatments">
       <div>
         <h1
           class="text-center"
           style="
             color: rgb(255, 255, 255);
             margin-bottom: 5%;
-            font-family: Almarai, sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 35px;
+            letter-spacing: 10px;
             margin-top: 3%;
           "
         >
-          <strong>Treatments</strong><br />
+          Treatments<br />
         </h1>
         <div
           class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center flex-wrap justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
@@ -1213,14 +1286,15 @@
         <h1
           class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center"
           style="
-            font-family: Alatsi, sans-serif;
-            font-weight: bold;
+            font-family: 'Raleway', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
             padding-bottom: 5%;
-            font-size: 40px;
+            font-size: 35px;
             padding-top: 25px;
           "
         >
-          <br /><strong>Our Insurance Partners</strong><br />
+          <br />Our Insurance Partners<br />
         </h1>
       </div>
       <div class="large-insurance">
@@ -2278,15 +2352,18 @@
             style="
               padding-top: 20%;
               color: rgb(255, 255, 255);
-              font-family: Almarai, sans-serif;
-              font-size: 40px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 400;
+              text-transform: uppercase;
+              letter-spacing: 10px;
+              font-size: 35px;
             "
           >
             Gallery
           </h2>
           <p
             class="text-center"
-            style="font-size: 15px; color: rgb(184, 193, 198)"
+            style="font-size: 15px; color: rgb(255, 255, 255)"
           >
             &nbsp;From a humble beginning as a small dental clinic in Sharjah
             now it has grown with the trust of its patients to one of the best
@@ -2450,8 +2527,8 @@
             <div style="padding-top: 10%">
               <h1
                 style="
-                  font-family: Almarai, sans-serif;
-                  font-weight: normal;
+                  font-family: 'Raleway', sans-serif;
+                  text-transform: uppercase;
                   font-size: 35px;
                 "
               >
@@ -3292,7 +3369,7 @@
       // }
       setTimeout(function () {
         $(".loader_bg").fadeToggle();
-      }, 1500);
+      }, 4000);
 
       $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
