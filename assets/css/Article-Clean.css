@@ -1,7 +1,7 @@
 .article-clean {
   color: #56585b;
   background-color: #fff;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 14px;
 }
 
@@ -50,7 +50,7 @@
   line-height: 1.45;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .article-clean .text p {
     font-size: 16px;
   }
@@ -65,7 +65,7 @@
   color: #333;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .article-clean .text h2 {
     font-size: 20px;
   }
@@ -96,7 +96,7 @@
 
 @media (max-width: 1197px) {
   .caption-container {
-    background: rgba(255,255,255,0.29);
+    background: rgba(255, 255, 255, 0.29);
   }
 }
 
@@ -108,7 +108,7 @@
 
 @media (max-width: 757px) {
   .welcome-col {
-    background-color: rgba(255,255,255,0.67);
+    background-color: rgba(255, 255, 255, 0.67);
   }
 }
 
@@ -150,7 +150,7 @@
 }
 
 .our-team {
-  background: rgba(0,76,170,0.79);
+  background: rgba(0, 76, 170, 0.79);
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -235,7 +235,7 @@ our-team:hover .pic::before {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: rgba(0,76,170,0.79);
+  background: rgba(0, 76, 170, 0.79);
   position: absolute;
   bottom: -100px;
   left: 0;
@@ -269,7 +269,7 @@ our-team:hover .pic::before {
   bottom: 135%;
   right: 0;
   left: 0;
-  opacity: .8;
+  opacity: 0.8;
   transform: scale(3);
   transition: all 0.3s linear 0s;
 }
@@ -280,7 +280,7 @@ our-team:hover .pic::before {
 
 .whatsapp-link {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   right: 20px;
   cursor: pointer;
 }
@@ -351,7 +351,7 @@ our-team:hover .pic::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,76,170,0.79);
+  background-color: rgba(0, 76, 170, 0.79);
   z-index: 10;
   display: flex;
   align-items: center;
@@ -384,4 +384,3 @@ our-team:hover .pic::before {
   text-align: center;
   width: 155.5px;
 }
-
