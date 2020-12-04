@@ -2550,6 +2550,7 @@
               style="padding-top: 5%"
               action="https://alafdal-mailer.vercel.app/api/"
               method="post"
+              id="appointment-form"
             >
               <div
                 style="
@@ -2736,8 +2737,11 @@
                 placeholder="Message"
               ></textarea>
               <button
+                class="g-recaptcha"
+                data-sitekey="6LcIG_kZAAAAAPA-l6bruzfkixjGlPEOqKGu4EC1"
+                data-callback="onSubmit"
+                data-action="submit"
                 class="btn btn-primary"
-                type="submit"
                 style="
                   margin-top: 30px;
                   background: #004caa;
@@ -3350,6 +3354,15 @@
           style="width: 60px; height: 60px"
       /></a>
     </div>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+      function onSubmit(token) {
+        document.getElementById("appointment-form").submit();
+      }
+    </script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
